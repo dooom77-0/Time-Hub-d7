@@ -29,7 +29,7 @@ export default function WorldClock() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <div className="cities grid grid-cols-2 sm:gap-4 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="cities grid grid-cols-2 sm:gap-4 sm:text-2xl md:grid-cols-2 lg:grid-cols-4 gap-8">
         {cities.map((city, index) => (
           <div key={index} className="city-time text-3xl md:text-4xl lg:text-5xl flex flex-col items-center">
             <h3>{city.name}</h3>
