@@ -47,7 +47,7 @@ export default function PomodoroClient() {
                     {isRunning ? "Stop" : "Start"}
                 </button>
 
-                <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded ml-4" onClick={() => setTimeLeft(25 * 60)}>
+                <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded ml-4" onClick={() => setTimeLeft(15 * 60)}>
                     Reset
                 </button>
             </motion.div>
