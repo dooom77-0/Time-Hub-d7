@@ -35,7 +35,6 @@ export default function StopWatchClient() {
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="bg-gray-200 p-20 rounded-full shadow-lg"
       >
         <h2 className="text-4xl font-bold mb-4">{formatTime(time)}</h2>
       <div className="flex space-x-4">

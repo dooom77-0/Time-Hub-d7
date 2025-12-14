@@ -20,12 +20,12 @@ export default function ClockClient() {
         transition={{ duration: 0.7 }}
         >
             <div className="text-2xl md:text-4xl lg:text-6xl flex min-h-screen items-center justify-center w-screen flex-col bg-linear-to-r from-blue-300 via-0%0 to-green-300">
-            <h1 className="text-4xl font-bold mb-10">الساعة الحالية</h1>
+            <h1 className="text-2xl font-bold mb-10">الساعة الحالية</h1>
 
-            <h1 className="text-6xl font-bold text-shadow-lg">{time.toLocaleTimeString("en-US", { hour12: true })}</h1>
+            <h1 className="text-4xl font-bold text-shadow-lg">{time.toLocaleTimeString("en-US", { hour12: true })}</h1>
 
             <h2>
-                <Clock value={time} size={200} className="mt-10" />
+                <Clock value={time} size={150} className="mt-10" />
             </h2>
         </div>
         </motion.div>
